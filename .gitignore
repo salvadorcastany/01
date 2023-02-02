@@ -4,3 +4,8 @@ cypress/results/*
 cypress/reports/*
 cypress/screenshots/*
 cypress/videos/*
+node_modules
+.vscode
+coverage
+.idea
+reports
