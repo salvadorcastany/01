@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "@cypress/webpack-preprocessor": "^5.16.2",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
     "cypress": "^12.5.0",
     "eslint-plugin-cypress": "^2.12.1",
     "ts-loader": "^9.4.2",
@@ -8,6 +9,8 @@
     "webpack": "^5.75.0"
   },
   "scripts": {
-    "test": "cypress open"
+    "test": "npm run lint && cypress open",
+    "lint": "eslint ./cypress/e2e/**/*.ts",
+    "lint:fix": "npm run lint -- --fix"
   }
 }
