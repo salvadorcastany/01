@@ -11,6 +11,7 @@
   "scripts": {
     "test": "npm run lint && cypress open",
     "lint": "eslint ./cypress/e2e/**/*.ts",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "cypress:run": "cypress run" 
   }
 }

@@ -9,8 +9,8 @@
         ]
     },
     "include": [
-        "cypress/**/*.ts"
-    ],
+        "cypress/**/*.ts", 
+        "cypress/e2e/google.cy.js"],
     "exclude": [
         "node_modules/"
     ]
