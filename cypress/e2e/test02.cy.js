@@ -6,5 +6,7 @@ describe("This is my second cypress test", () => {
         cy.title().should("eq", "Google");
         cy.title().should("be.empty");
         console.log("TESTING BRANCH -test01-  ");
+
+        console.log("TESTING BRANCH -test02-  ");
     });
 });
